@@ -1,5 +1,10 @@
 # MacOS - gRPC Service 
 
+Create New App 
+```
+swift package init --name MyClientApp --type executable
+``
+
 ### Local Development 
 
 Install protobuf
