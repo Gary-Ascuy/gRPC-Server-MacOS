@@ -1,9 +1,9 @@
 # MacOS - gRPC Service 
 
 Create New App 
-```
+```sh
 swift package init --name MyClientApp --type executable
-``
+```
 
 ### Local Development 
 
