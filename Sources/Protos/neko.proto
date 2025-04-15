@@ -1,0 +1,18 @@
+syntax = "proto3";
+package neko;
+
+service Executor {
+  rpc execute (NekoRequest) returns (NekoResponse) {}
+}
+
+service Loader {
+  rpc load (NekoRequest) returns (NekoResponse) {}
+}
+
+message NekoRequest {
+  string name = 1;
+}
+
+message NekoResponse {
+  string message = 1;
+}
